@@ -1,0 +1,20 @@
+# Backend secrets and Python environment/cache
+**/.env
+**/.venv/
+backend/.venv-py313/
+**/__pycache__/
+*.py[cod]
+backend/auth.db
+backend/auth.db-shm
+backend/auth.db-wal
+
+# Frontend dependencies and generated output
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Local logs and editor files
+*.log
+.vscode/
+.idea/
+.DS_Store

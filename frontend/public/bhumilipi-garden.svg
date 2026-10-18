@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" fill="none">
+  <defs>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#006030" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#58A028" stop-opacity=".08"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#006030" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#006030" stop-opacity=".22"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="2.6"/></filter>
+  </defs>
+  <g filter="url(#soft)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M99 702c131-136 287-186 487-161 149 19 272-29 423-146M45 744c154-146 314-205 504-181 176 22 319-31 502-163M32 675c168-125 329-164 478-144 185 25 346-28 535-156" stroke="url(#field)" stroke-width="18"/>
+    <path transform="translate(430 32) scale(.75)" d="M315 44l30 12 22 24 28 9 14 22-5 25 17 18-7 26 18 14-8 29 15 24-17 28-22 10-6 30-25 17-9 34-31 5-19 27-27-9-20 13-23-11-22 10-11-24-24-3-6-26-21-11 4-28-18-16 9-22-9-23 19-17-5-27 23-12 5-30 24-3 11-25 29 2 20-18 22 11 21-13z" fill="#006030" fill-opacity=".17" stroke="#004830" stroke-opacity=".24" stroke-width="3"/>
+    <path d="M816 663c-12-137 3-274 57-411M873 587c52-91 113-144 190-178M855 526c-54-87-116-136-196-168M883 439c54-74 117-112 187-128M843 463c-16-70-50-120-105-158" stroke="#006030" stroke-opacity=".18" stroke-width="12"/>
+    <path d="M889 520c-58-53-62-115-25-160 64 19 91 77 25 160zm-31-37c12-77 58-114 111-106 10 67-30 111-111 106zm-27-105c-55-55-52-113-9-151 59 27 75 85 9 151zm67-93c30-69 81-93 128-73-7 64-54 96-128 73z" fill="url(#leaf)" stroke="#006030" stroke-opacity=".16" stroke-width="5"/>
+    <path d="M319 580c38-51 89-58 126-21-17 50-64 68-126 21zm41 23c31-55 81-71 124-43-8 54-52 80-124 43zm-4-68c-2-58 32-93 83-91 22 51-5 96-83 91z" fill="#58A028" fill-opacity=".13" stroke="#006030" stroke-opacity=".13" stroke-width="5"/>
+    <path d="M538 255c22-19 46-17 64 2-18 19-40 21-64-2zm62 0c22-19 46-17 64 2-18 19-40 21-64-2M701 197c18-16 38-14 53 2-15 16-33 17-53-2zm52 0c18-16 38-14 53 2-15 16-33 17-53-2" stroke="#004830" stroke-opacity=".24" stroke-width="7"/>
+    <path d="M466 387c0-24 18-42 42-42s42 18 42 42c0 29-42 67-42 67s-42-38-42-67z" fill="#006030" fill-opacity=".11" stroke="#006030" stroke-opacity=".14" stroke-width="5"/>
+    <circle cx="508" cy="386" r="14" fill="#58A028" fill-opacity=".15"/>
+  </g>
+</svg>

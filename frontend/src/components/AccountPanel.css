@@ -1,0 +1,26 @@
+.account-dialog-backdrop { position: fixed; inset: 0; z-index: 30; display: grid; place-items: center; overflow-y: auto; padding: 20px; background: rgb(16 35 29 / 62%); }
+.account-dialog { position: relative; display: grid; gap: 12px; width: min(100%, 440px); max-height: min(90vh, 760px); overflow-y: auto; padding: 26px; border: 1px solid var(--line); border-radius: 18px; background: var(--surface); color: var(--text); box-shadow: 0 24px 70px rgb(16 35 29 / 25%); font-size: 13px; line-height: 1.5; }
+.account-dialog-standalone { width: 100%; max-height: none; overflow: visible; padding: 22px; border-radius: 16px; box-shadow: 0 16px 44px rgb(16 35 29 / 10%); }
+.account-dialog h2 { margin: -4px 28px 0 0; font-size: 21px; line-height: 1.3; }
+.account-dialog > p { margin: 0; color: var(--muted); font-size: 12px; }
+.account-dialog-close { position: absolute; top: 14px; right: 14px; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface); color: var(--text); font-size: 21px; }
+.account-mode-switch { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; padding: 4px; border-radius: 10px; background: var(--surface-muted, #F7FAF7); }
+.account-mode-switch button { min-height: 36px; border: 0; border-radius: 7px; background: transparent; color: var(--muted); font: inherit; font-weight: 600; }
+.account-mode-switch button.active { background: var(--surface); color: var(--green, #005830); box-shadow: 0 1px 4px rgb(20 50 38 / 12%); }
+.account-name-fields { display: grid; gap: 10px; }
+.account-dialog label { display: grid; gap: 5px; color: var(--text); font-size: 12px; font-weight: 600; }
+.account-dialog input { width: 100%; min-height: 42px; padding: 9px 11px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface); color: var(--text); font: inherit; font-weight: 400; }
+.account-dialog input:focus-visible { outline: 2px solid var(--green, #005830); outline-offset: 1px; }
+.account-dialog .account-form-hint,
+.account-dialog .account-security-note { color: var(--muted); font-size: 11px; }
+.account-dialog .account-switch-prompt { margin: 0; color: var(--muted); font-size: 12px; text-align: center; }
+.account-switch-prompt button { padding: 0; border: 0; background: transparent; color: var(--green, #005830); font: inherit; font-weight: 700; }
+.account-dialog .account-submit { width: 100%; min-height: 42px; font-size: 13px; }
+.account-dialog .account-submit:disabled { cursor: not-allowed; opacity: .62; }
+.account-link-button { justify-self: start; padding: 4px 0; border: 0; background: transparent; color: var(--green, #005830); font: inherit; font-size: 12px; text-align: left; }
+.account-link-button:disabled { color: var(--muted); cursor: not-allowed; }
+.account-feedback { margin: 0; padding: 10px 12px; border-radius: 9px; background: var(--green-soft, #EAF2E9); color: var(--text); overflow-wrap: anywhere; font-size: 12px; }
+.theme-dark .account-mode-switch { background: #0B3825; }
+.theme-dark .account-mode-switch button.active { background: #0B3825; }
+.theme-dark .account-feedback { background: #123F2D; }
+@media (max-width: 480px) { .account-dialog-backdrop { padding: 12px; } .account-dialog { padding: 22px 18px; border-radius: 14px; } .account-dialog h2 { font-size: 19px; } }
